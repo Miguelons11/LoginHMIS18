@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="AllTest" project="myapplication" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="myapplication.AllTest" time="2.331">
+    <testsuite name="myapplication.EditarInformacionOk" time="2.222">
+      <testcase name="editarInformaciontest" classname="myapplication.EditarInformacionOk" time="2.222"/>
+    </testsuite>
+    <testsuite name="myapplication.LogIn" time="0.016">
+      <testcase name="test" classname="myapplication.LogIn" time="0.016"/>
+    </testsuite>
+    <testsuite name="myapplication.RegistroOk" time="0.093">
+      <testcase name="registroOkTest" classname="myapplication.RegistroOk" time="0.093"/>
+    </testsuite>
+  </testsuite>
+</testrun>

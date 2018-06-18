@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.vaadin.navigator.Navigator"/>
+<fullyQualifiedTypeName name="org.orm.PersistentException"/>
+<fullyQualifiedTypeName name="com.example.myapplication.Inicio_sesion"/>
+<fullyQualifiedTypeName name="com.vaadin.navigator.View"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.UI"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.Button"/>
+<fullyQualifiedTypeName name="com.vaadin.ui.Button.ClickListener"/>
+<fullyQualifiedTypeName name="usuario.BD_Principal"/>
+<fullyQualifiedTypeName name="usuario.UsuarioDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="usuario.Usuario"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="usuario.IUsuario"/>
+<fullyQualifiedTypeName name="java.util.GregorianCalendar"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="usuario.IAdministrador"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,20 @@
+package myapplication;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import usuario.BD_Usuario;
+import usuario.Usuario;
+
+public class RegistroOk {
+
+	BD_Usuario bd= new BD_Usuario();
+	Usuario user= new Usuario();
+	
+	@Test
+	public void RegistroOkTest() {
+		//user= bd.registrarse("pruebatest", aUsername, aPassword, aAdmin, aFechaCreacion, aFechaUltimoAcceso)
+	}
+
+}

@@ -1,0 +1,41 @@
+/*package myapplication;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.orm.PersistentException;
+import org.orm.PersistentTransaction;
+
+import usuario.BD_Usuario;
+import usuario.Usuario;
+
+public class eliminarUsuario {
+
+	BD_Usuario bd= new BD_Usuario();
+	Usuario user= new Usuario();
+	public boolean in; 
+	
+/*	@Test
+	public void test() throws PersistentException {
+		PersistentTransaction t = usuario.HMIsPersistentManager.instance().getSession().beginTransaction();
+
+		try {
+			user = bd.eliminarUsuario("d");      
+
+			Usuario aux = usuario.UsuarioDAO.loadUsuarioByQuery("Usuario.email='" +user.getEmail()+ "'", null);
+			t.commit();
+			if (aux.equals(null) ) {
+				in=true;
+			} else {
+				in=false;
+			}
+
+		} catch (PersistentException e) {
+			t.rollback();
+		}
+		assertTrue(in);
+	}
+	}
+
+*/
+

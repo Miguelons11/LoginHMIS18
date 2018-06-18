@@ -1,0 +1,42 @@
+package myapplication;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.orm.PersistentException;
+import org.orm.PersistentTransaction;
+
+import usuario.BD_Principal;
+import usuario.BD_Usuario;
+import usuario.IUsuario;
+import usuario.IUsuarioNoRegistrado;
+import usuario.Usuario;
+
+public class EditarInformacionOk {
+	IUsuarioNoRegistrado us= new BD_Principal();
+	IUsuario ur= new BD_Principal();
+	Usuario user= new Usuario();
+	public boolean in;
+
+	@Test
+	public void editarInformaciontest() throws PersistentException {
+		PersistentTransaction t = usuario.HMIsPersistentManager.instance().getSession().beginTransaction();
+		try {
+			user = us.registrarse("pruebaEdit", "prueba", "prueba", false, "", "");
+			user= ur.editarInformacion("pruebaHmis", "testEdit", "pruebaHmis");
+			Usuario aux = usuario.UsuarioDAO.loadUsuarioByQuery("Usuario.email='" + "pruebaHmis" + "'", null);
+			t.commit();
+			if (aux.equals(null)) {
+				in=false;
+			} else {
+				in=true;
+			}
+
+		} catch (PersistentException e) {
+			t.rollback();
+		}
+		assertTrue(in);
+	}
+	}
+
+

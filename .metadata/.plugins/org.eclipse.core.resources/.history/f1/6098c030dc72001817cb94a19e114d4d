@@ -1,0 +1,21 @@
+package myapplication;
+
+import static org.junit.Assert.*;
+
+import java.util.List;
+
+import org.junit.Test;
+
+import usuario.Usuario;
+
+public class CargarUsuarios {
+
+	List<Usuario> lista;
+	Usuario 
+	
+	@Test
+	public void test() {
+		
+	}
+	
+}

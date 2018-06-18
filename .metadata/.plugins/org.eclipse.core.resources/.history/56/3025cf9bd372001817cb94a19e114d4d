@@ -1,0 +1,15 @@
+package myapplication;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class RegistroIncorrectoContrasena {
+
+	@Test
+	public void test() {
+		
+	}
+	
+
+}

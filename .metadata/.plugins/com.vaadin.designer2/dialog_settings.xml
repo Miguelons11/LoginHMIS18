@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="com.vaadin.designer2.eclipse.property.editor.IconPropertyDialog">
+		<item value="569" key="x"/>
+		<item value="228" key="width"/>
+		<item value="165" key="y"/>
+		<item value="398" key="height"/>
+	</section>
+	<section name="com.vaadin.designer2.eclipse.property.editor.StylePropertyDialog">
+		<item value="405" key="x"/>
+		<item value="556" key="width"/>
+		<item value="150" key="y"/>
+		<item value="427" key="height"/>
+	</section>
+	<section name="org.eclipse.wb.internal.core.model.property.editor.string.StringPropertyDialog">
+		<item value="413" key="x"/>
+		<item value="540" key="width"/>
+		<item value="244" key="y"/>
+		<item value="240" key="height"/>
+	</section>
+</section>
